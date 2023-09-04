@@ -3,14 +3,14 @@ import { BlogConfig } from "./types/config";
 const blogConfig: BlogConfig = {
   use: "notion", // mdx or notion
   siteLogo: {
-    url: "/images/logo.svg",
+    url: "/images/curry.svg",
     width: 201,
     height: 39,
   },
-  siteName: "AWESOME",
+  siteName: "Player Y",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL,
-  title: "AWESOME",
-  description: "AWESOME Next.js TypeScript MDX Blog Theme",
+  title: "Player Y",
+  description: "",
   googleAnalyticsCode: "", // G-**********
   googleAdsenseCode: "", // ca-pub-****************
   notFoundPage: {
@@ -66,15 +66,15 @@ const blogConfig: BlogConfig = {
     },
   },
   hero: {
-    title: "My awesome life",
-    image: "/images/plane.jpeg",
-    description: "AWESOME Next.js TypeScript MDX Blog Theme",
+    title: "Player Y",
+    image: "/images/helo.jpg",
+    description: "Blog & Outputs ...",
   },
   footer: {
-    title: "AWESOME Next.js TypeScript MDX Blog Theme",
+    title: "Player Y",
   },
   article: {
-    defaultThumbnail: "/images/plane.jpeg",
+    defaultThumbnail: "/images/helo.jpg",
     articlesPerPage: 6,
   },
   navigation: [
@@ -102,25 +102,19 @@ const blogConfig: BlogConfig = {
     },
   ],
   account: {
-    name: "steelydylan",
-    description: "profile here profile here profile here profile here",
-    image: `/images/me.jpeg`,
+    name: "ykk",
+    description: "Engineer / Japan 好きなものはカレーと King Gnu",
+    image: `/images/me.png`,
     social: {
-      twitter: "https://twitter.com/steelydylan",
-      github: "https://github.com/steelydylan",
+      twitter: "https://twitter.com/yokokokokokoko3",
+      github: "https://github.com/Kaaaaazuya",
     },
   },
   writers: [
     {
-      id: "awesome",
-      name: "Mr. AWESOME",
-      description: "profile here profile here profile here profile here",
-      image: "/images/me.jpeg",
-    },
-    {
-      id: "steelydylan",
-      name: "steelydylan",
-      description: "profile here profile here profile here profile here",
+      id: "1",
+      name: "ykk",
+      description: "Engineer / Japan  好きなものはカレーと King Gnu",
       image: "/images/me.jpeg",
     },
   ],
