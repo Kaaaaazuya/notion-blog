@@ -7,9 +7,9 @@ const blogConfig: BlogConfig = {
     width: 201,
     height: 39,
   },
-  siteName: "Player Y",
+  siteName: "fly with me",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL,
-  title: "Player Y",
+  title: "fly with me",
   description: "",
   googleAnalyticsCode: "", // G-**********
   googleAdsenseCode: "", // ca-pub-****************
@@ -66,12 +66,12 @@ const blogConfig: BlogConfig = {
     },
   },
   hero: {
-    title: "Player Y",
+    title: "fly with me",
     image: "/images/helo.jpg",
     description: "Blog & Outputs ...",
   },
   footer: {
-    title: "Player Y",
+    title: "fly with me",
   },
   article: {
     defaultThumbnail: "/images/helo.jpg",
@@ -79,12 +79,12 @@ const blogConfig: BlogConfig = {
   },
   navigation: [
     {
-      name: "travel",
-      url: `/travel`,
+      name: "blog",
+      url: `/blog`,
     },
     {
-      name: "camp",
-      url: `/camp`,
+      name: "outputs",
+      url: `/outputs`,
     },
   ],
   subNavigation: [
@@ -126,38 +126,22 @@ const blogConfig: BlogConfig = {
       description: "",
     },
     {
-      id: "camp",
-      title: "Camp",
+      id: "blog",
+      title: "blog",
       imagePath: "/images/camp.jpeg",
-      description: "Look at my awesome camp life",
+      description: "Look at my blogs",
     },
     {
-      id: "travel",
-      title: "Travel",
+      id: "outputs",
+      title: "outputs",
       imagePath: "/images/london.jpeg",
-      description: "Look at my awesome travel life",
+      description: "Look at my outputs",
     },
   ],
   tags: [
     {
-      id: "london",
-      title: "London",
-    },
-    {
-      id: "boston",
-      title: "Boston",
-    },
-    {
-      id: "paris",
-      title: "Paris",
-    },
-    {
-      id: "fire",
-      title: "Fire",
-    },
-    {
-      id: "sky",
-      title: "Sky",
+      id: "readmemo",
+      title: "readmemo",
     },
   ],
 };
