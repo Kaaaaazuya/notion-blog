@@ -143,6 +143,10 @@ const blogConfig: BlogConfig = {
       id: "readmemo",
       title: "readmemo",
     },
+    {
+      id: "outputs",
+      title: "outputs",
+    },
   ],
 };
 
