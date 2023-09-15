@@ -137,6 +137,12 @@ const blogConfig: BlogConfig = {
       imagePath: "/images/london.jpeg",
       description: "Look at my outputs",
     },
+    {
+      id: "readmemo",
+      title: "readmemo",
+      imagePath: "/images/camp.jpeg",
+      description: "Look at my readmemos",
+    },
   ],
   tags: [
     {
