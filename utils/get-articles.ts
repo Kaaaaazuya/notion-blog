@@ -28,6 +28,9 @@ export const getFilteredArticles = async ({
 }) => {
   const articles = await getArticles();
   const results = articles
+  .filter(({ data }) => {
+    return data.status == 'open'
+  })
     .filter(({ data }) => {
       if (!categoryId) {
         return true;
