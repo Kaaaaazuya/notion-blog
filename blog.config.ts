@@ -40,7 +40,7 @@ const blogConfig: BlogConfig = {
     },
     share: {
       title: "Share",
-      socials: ["twitter", "facebook"],
+      socials: ["twitter"],
     },
     fixedSidebar: {
       ad: "",
@@ -79,8 +79,8 @@ const blogConfig: BlogConfig = {
   },
   navigation: [
     {
-      name: "blog",
-      url: `/blog`,
+      name: "readmemo",
+      url: `/readmemo`,
     },
     {
       name: "outputs",
@@ -89,16 +89,8 @@ const blogConfig: BlogConfig = {
   ],
   subNavigation: [
     {
-      name: "terms",
-      url: "/about/terms",
-    },
-    {
-      name: "privacy",
-      url: "/about/privacy",
-    },
-    {
       name: "GitHub",
-      url: "https://github.com/steelydylan/Awesome",
+      url: "https://github.com/Kaaaaazuya/notion-blog",
     },
   ],
   account: {
