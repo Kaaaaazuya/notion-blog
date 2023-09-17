@@ -28,26 +28,25 @@ export const getFilteredArticles = async ({
 }) => {
   const articles = await getArticles();
   const results = articles
-  .filter(({ data }) => {
-    return data.status == 'open'
-  })
     .filter(({ data }) => {
-      if (!categoryId) {
-        return true;
+      if (data.status !== 'open') {
+        return false;
       }
-      return data.category === categoryId;
-    })
-    .filter(({ data }) => {
-      if (!tagId) {
-        return true;
+      if (categoryId && data.category !== categoryId) {
+        return false;
       }
-      return data.tags.some((t) => t === tagId);
+      if (tagId && !data.tags.includes(tagId)) {
+        return false;
+      }
+      return true;
     })
     .sort((articleA, articleB) => {
       if (articleA.data.date > articleB.data.date) {
         return -1;
+      } else if (articleA.data.date < articleB.data.date) {
+        return 1;
       }
-      return 1;
+      return 0;
     })
     .slice(
       current * blogConfig.article.articlesPerPage,
