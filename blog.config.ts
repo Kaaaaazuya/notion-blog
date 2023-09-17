@@ -79,8 +79,8 @@ const blogConfig: BlogConfig = {
   },
   navigation: [
     {
-      name: "readmemo",
-      url: `/readmemo`,
+      name: "read",
+      url: `/read`,
     },
     {
       name: "outputs",
@@ -130,20 +130,28 @@ const blogConfig: BlogConfig = {
       description: "Look at my outputs",
     },
     {
-      id: "readmemo",
-      title: "readmemo",
+      id: "read",
+      title: "read",
       imagePath: "/images/camp.jpeg",
-      description: "Look at my readmemos",
+      description: "Look at my reads",
     },
   ],
   tags: [
     {
-      id: "readmemo",
-      title: "readmemo",
+      id: "read",
+      title: "read",
+    },
+    {
+      id: "tips",
+      title: "tips",
     },
     {
       id: "outputs",
       title: "outputs",
+    },
+    {
+      id: "others",
+      title: "others",
     },
   ],
 };
